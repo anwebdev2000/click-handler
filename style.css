@@ -1,0 +1,45 @@
+
+.blueColor{
+    background-color: skyblue;
+    padding:10px 20px 10px 20px;
+    border-radius: 10%;
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
+
+.blueColor:hover{
+    background-color: rgb(158, 220, 244);
+}
+
+.greenColor{
+    background-color: green;
+    padding:10px 20px 10px 20px;
+    border-radius: 10%; 
+    border: 2px solid green;
+    cursor: pointer;
+}
+.greenColor:hover{
+    background-color: rgb(34, 203, 34);
+}
+
+.orangeColor{
+    background-color: orange;
+    padding:10px 20px 10px 20px;
+    border-radius: 10%;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.orangeColor:hover{
+    background-color: rgb(242, 191, 95);
+}
+
+.container{
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+}
+
